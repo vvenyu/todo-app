@@ -53,4 +53,25 @@ ul {
   background-color: var(--bg-color);
 }
 
+#project {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+#open-project-input {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#project svg {
+  height: 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
 
