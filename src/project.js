@@ -1,6 +1,8 @@
-import { logProjectName } from "./index.js";
+import { logProjectName } from "./constructor.js";
+
 
 export default function openProjectInput() {
+  logProjectName('Default')
   const projectBtn = document.querySelector('#open-project-input');
   const projectForm = document.querySelector('#project-form');
   const input = document.querySelector('#project-name');
